@@ -1,0 +1,52 @@
+.header-title {
+   color: rgba(255, 255, 255, 1);
+   text-align: center;
+   margin-top: 111px;
+   line-height: 57.76px;
+   font-size: 40px;
+   margin-bottom: 5px;
+}
+
+.beans-container {
+    display: flex;
+    justify-content: center;
+}
+
+.bean {
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-bottom: 20px;
+}
+
+.border-line {
+    border-top: 1px solid white;
+    width: 5%;
+    margin-top: 15px;
+}
+h2 {
+    color: rgba(255, 255, 255, 1);
+    text-align: center;
+    font-size: 24px;
+    line-height: 34.66px;
+}
+
+.button-wrapper {
+ display: flex;
+ justify-content: center; 
+}
+
+button {
+    font-family: 'M';
+    border: 1px solid rgba(255, 255, 255, 1);
+    background-color: transparent;
+    width: 120px;
+    height: 30px;
+    color: rgba(255, 255, 255, 1);
+    border-radius: 3px;
+    font-family: 'Merienda', cursive;
+    cursor: pointer;
+}
+button:hover {
+    padding: 5px;
+}
+

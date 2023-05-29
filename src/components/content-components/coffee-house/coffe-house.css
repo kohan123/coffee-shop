@@ -1,1 +1,15 @@
+.coffee-house-container {
+    margin-top: 100px;
+}
 
+.content-title {
+    text-align: center;
+}
+.text-container {
+    margin: 0 auto;
+    width: 60%;
+    text-align: center;
+    font-size: 18px;
+    white-space:initial;
+    color: rgba(0, 0, 0, 1);
+}

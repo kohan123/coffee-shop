@@ -1,0 +1,15 @@
+/* .beans-container {
+    display: flex;
+} */
+
+.black-bean {
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-bottom: 20px;
+}
+
+.border-black-line {
+    border-top: 1px solid black;
+    width: 5%;
+    margin-top: 15px;
+}

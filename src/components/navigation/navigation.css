@@ -1,6 +1,5 @@
 .nav-container {
     display: flex;
-    background-color: brown;
     margin-left: 15%;
 }
 ul {
@@ -8,6 +7,7 @@ ul {
     display: flex;
     padding: 0px;
     margin-bottom: 0px;
+    margin-top: 20px;
 }
 li {
     margin: 0px 20px 0px 20px;
