@@ -1,6 +1,8 @@
 import './coffe-house.css';
 
 import BlackBeanSeparator from '../../black-bean-separator/black-bean-separator';
+import CardItem from '../../card-item/card-item';
+import product3 from '../../../images/products/product3.jpg';
 
 const CoffeeHouse = () => {
     return (
@@ -20,6 +22,10 @@ const CoffeeHouse = () => {
                     Blessing for ignorant exercise any yourself unpacked. 
                     Pleasant horrible but confined day end marriage. Eagerness furniture set preserved far recommend. Did even but nor are most gave hope. 
                     Secure active living depend son repair day ladies now.</p>
+            </div>
+            <div className='cards-container'>
+                <h1>Our best</h1>
+                <CardItem img={product3} text='Solimo Coffee Beans 2 kg' price='10.73$'/>
             </div>
         </div>
     )
