@@ -3,6 +3,9 @@ import './coffe-house.css';
 import BlackBeanSeparator from '../../black-bean-separator/black-bean-separator';
 import CardItem from '../../card-item/card-item';
 import product3 from '../../../images/products/product3.jpg';
+import product2 from '../../../images/products/product2.png';
+import product1 from '../../../images/products/product1.png';
+
 
 const CoffeeHouse = () => {
     return (
@@ -25,7 +28,12 @@ const CoffeeHouse = () => {
             </div>
             <div className='cards-container'>
                 <h1>Our best</h1>
-                <CardItem img={product3} text='Solimo Coffee Beans 2 kg' price='10.73$'/>
+                <div className='cards-block'>
+                <CardItem active='active'img={product3} text='Solimo Coffee Beans 2 kg' price='10.73$'/>
+                <CardItem img={product2} text='Presto Coffee Beans 1 kg' price='15.99$'/>
+                <CardItem img={product1} text='AROMISTICO Coffee 1 kg' price='6.99$'/>
+                </div>
+                
             </div>
         </div>
     )

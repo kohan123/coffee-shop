@@ -1,13 +1,13 @@
 import './navigation.css';
 
-import WhiteBean  from '../../images/beans/white-bean.png';
 
 
-const Navigation = () => {
+
+const Navigation = ({img, color}) => {
     return (
         <div className='nav-container'>
-            <img src={WhiteBean} alt='white-bean' className='white-bean'/>
-            <ul>
+            <img src={img} alt='bean' className='bean'/>
+            <ul style={{color: `${color}`}}>
                 <li>Coffee house</li>
                 <li>Our coffee</li>
                 <li>For your pleasure</li>

@@ -2,12 +2,14 @@ import './App.css';
 
 import Header from './components/header/header';
 import CoffeeHouse from './components/content-components/coffee-house/coffee-house';
+import Footer from './components/footer/footer';
 
 function App() {
   return (
     <div className="font-merienda" alt="1">
       <Header/>
       <CoffeeHouse/>
+      <Footer/>
     </div>
   );
 }

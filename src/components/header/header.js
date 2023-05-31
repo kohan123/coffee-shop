@@ -3,6 +3,7 @@ import './header.css';
 import Navigation from '../navigation/navigation';
 import mainHeader from '../../images/header/main-header.jpg';
 import whiteBeanFull from '../../images/beans/white-bean-full.png';
+import whiteBean  from '../../images/beans/white-bean.png';
 
 const Header = () => {
     return (
@@ -13,7 +14,7 @@ const Header = () => {
           backgroundPosition: 'center', 
           backgroundSize: 'cover'  
         }}>
-            <Navigation/>
+            <Navigation img={whiteBean} color={'aliceblue'}/>
             <h1 className='header-title'>Everything You Love About Coffee</h1>
             <div className='beans-container'>
                 <div className='border-line'></div>
