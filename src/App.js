@@ -6,7 +6,7 @@ import Footer from './components/footer/footer';
 
 function App() {
   return (
-    <div className="font-merienda" alt="1">
+    <div className="font-merienda">
       <Header/>
       <CoffeeHouse/>
       <Footer/>

@@ -1,9 +1,18 @@
 import './cards.css';
+import CardItem from '../card-item/card-item';
 
-const Cards = () => {
+const Cards = ({data}) => {
+
+const cards = data.map(item => {
     return (
-        <div>
+    <CardItem key={item.key} {...item}/>
+    )
+})
 
+
+    return (
+        <div className='flex'>
+        {cards}
         </div>
     )
 }
