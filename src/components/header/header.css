@@ -1,14 +1,13 @@
 .header-title {
    color: rgba(255, 255, 255, 1);
    text-align: center;
-   margin-top: 111px;
+   margin-top: 80px;
    line-height: 57.76px;
    font-size: 40px;
-   margin-bottom: 5px;
 }
 .header-content {
     position: absolute;
-    top: 35%;
+    top: 32%;
     right: 30%;
 }
 
