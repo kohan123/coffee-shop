@@ -10,7 +10,7 @@ import bawBean from '../../images/beans/baw-bean.png';
 const Footer = () => {
     return (
         <div className='footer-container'>
-            <div className='navigation'><Navigation img={bawBean}/></div>
+            <div className='navigation'><Navigation img={bawBean} color={'black'}/></div>
             <div className='black-bean-separator'><BlackBeanSeparator /></div>
         </div>
     )

@@ -2,9 +2,13 @@ import './coffe-house.css';
 
 import BlackBeanSeparator from '../../black-bean-separator/black-bean-separator';
 import Cards from '../../cards/cards';
+import Header from '../../header/header';
+
 import product3 from '../../../images/products/product3.jpg';
 import product2 from '../../../images/products/product2.png';
 import product1 from '../../../images/products/product1.png';
+import mainHeader from '../../../images/header/main-header.jpg';
+import whiteBeanFull from '../../../images/beans/white-bean-full.png';
 
 const data = [
     {
@@ -33,6 +37,23 @@ const data = [
 const CoffeeHouse = () => {
     return (
         <div className='coffee-house-container'>
+
+            <Header img={mainHeader} height={'600px'} title='Everything You Love About Coffee'/>
+            
+        <div className='header-content'>
+            <div className='beans-container'>
+                <div className='border-line'></div>
+                <img className='white-bean' src={whiteBeanFull} alt="bean" />
+                <div className='border-line'></div>
+            </div>
+            <h2>We makes every day full of energy and taste</h2>
+            <h2>Want to try our beans?</h2>
+            <div class="button-wrapper">
+                <button>More</button>
+            </div>
+        </div>
+
+
             <h1 className='content-title'>About us</h1>
             <BlackBeanSeparator/>
             <div className='text-container'>
